@@ -10,7 +10,9 @@ pip3 install -r requirements.txt
 
 Then initialise
 
-```
+```Python
+from datashaka import DataShaka
+
 token = 'XXXX-XXXX-XXXX'
 groupspace = 'Main'
 api = DataShaka(token, groupspace)
